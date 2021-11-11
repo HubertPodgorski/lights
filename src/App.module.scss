@@ -1,0 +1,47 @@
+.light {
+  background: black;
+  padding: 40px;
+}
+
+.button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.status {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+
+.lightsWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.light {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+}
+
+.light1On {
+  background: red;
+}
+
+.light2On {
+  background: yellow;
+}
+
+.light3On {
+  background: yellow;
+}
+
+.light4On {
+  background: green;
+}
