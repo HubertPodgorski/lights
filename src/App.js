@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import style from './App.module.scss';
 import './common.scss';
 
-let interval;
-
 const App = () => {
   const [lightsRunning, setLightsRunning] = useState(false);
   const [lightOn, setLightOn] = useState(0);
