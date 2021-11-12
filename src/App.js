@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <button onClick={handleStartToggle} className={style.button}>
-        Start
+        {lightsRunning ? 'STOP' : "START"}
       </button>
 
       <div className={style.status}>{lightsRunning ? "włączone" : "wyłączone"}</div>

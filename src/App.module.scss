@@ -5,8 +5,25 @@
 
 .button {
   position: fixed;
-  bottom: 10px;
+  top: 50%;
+  transition: transform(-50%, -50%);
   right: 10px;
+  height: 900px;
+  width: 100px;
+  background: #666;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  margin-top: -450px;
+
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  
+  -webkit-appearance: none;
 }
 
 .status {
