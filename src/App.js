@@ -16,9 +16,7 @@ const App = () => {
   }, [lightOn, lightsRunning]);
 
   const handleStartToggle = () => {
-    if (!lightsRunning) {
-      setLightOn(0)  
-    }
+      setLightOn(0);
 
     setLightsRunning(!lightsRunning);
   }
